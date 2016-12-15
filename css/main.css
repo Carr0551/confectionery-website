@@ -1,47 +1,21 @@
-.nav {
-  position: relative;
-  background-color: #fff;
-  z-index: 2;
-  text-align: center;
-}
-
-img {
-  width: 100%;
-}
-
-.card {
-  overflow: hidden;
-}
-
-.card-body {
-  padding: .2rem 1rem;
-}
-
-.chocolate {
-  position: relative;
-}
-
-.chocolate-content {
-  color: #fff;
-  display: inline-block;
-  position: relative;
-  text-align: center;
-}
-
-.banner {
-  position: absolute;
-  overflow: hidden;
-}
 html {
-  font-family: Merriweather, serif;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.color-brand {
+  color: #000;
+}
+
+.captions {
+  color: #000;
 }
 
 a {
-  color: #8B4513;
+  color: #4B0082;
 }
 
 a:hover {
-  color: #113c00;
+  color: #4B0082;
 }
 
 .max-length {
@@ -50,29 +24,40 @@ a:hover {
 }
 
 .masthead {
+  font-family: 'Lobster', cursive;
   background-color: #fff;
-  color: #8B4513;
+
+  color: #000;
+}
+
+.nav {
+  position: relative;
+  background-color: #fff;
+  z-index: 2;
 }
 
 .nav a {
   display: inline-block;
   padding: .5rem .75rem;
+
+  color: #000;
   text-decoration: none;
 }
 
 .nav a:hover,
 .nav a:focus {
-  background-color: #fff;
-  color: #113c00;
+  background-color: #4B0082;
+  color: #fff;
 }
 
-th,
-td {
-  border-color: #dfdcda;
+.chocolate {
+  position: relative;
 }
 
-.news {
-  background-color: #eeebe9;
+.chocolate-content {
+  font-family: 'Lobster', cursive;
+  background-color: #4B0082;
+  color: #fff;
 }
 
 .contact {
@@ -80,18 +65,30 @@ td {
 }
 
 .btn {
-  background-color: #113c00;
-  border-color: #113c00;
+  background-color: #4B0082;
+  border-color: #4B0082;
 
   color: #fff;
 }
 
 .btn:hover {
-  background-color: #568c36;
-  border-color: #568c36;
+  background-color: #4B0082;
+  border-color: #4B0082;
 }
 
 .footer {
-  background-color: #113c00;
+  background-color: #4B0082;
   color: #fff;
+}
+
+@media only screen and (min-width: 35em) {
+
+  .chocolate-content {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+    background-color: transparent;
+  }
+
 }
