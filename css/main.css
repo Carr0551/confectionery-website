@@ -8,7 +8,7 @@ html {
 
 .captions {
   color: #000;
-  font-family: "Lobster", cursive;
+  font-family: Lobster, cursive;
 }
 
 a {
@@ -25,7 +25,7 @@ a:hover {
 }
 
 .masthead {
-  font-family: "Lobster", cursive;
+  font-family: Lobster, cursive;
   background-color: #fff;
 
   color: #000;
@@ -53,6 +53,7 @@ a:hover {
 
 .banner {
   position: relative;
+  background-image: url("../images/bg.jpg");
 }
 
 .banner-header {
@@ -61,7 +62,7 @@ a:hover {
 
 .chocolate-content {
   position: absolute;
-  font-family: "Lobster", cursive;
+  font-family: Lobster, cursive;
   background-color: #4b0082;
   color: #fff;
   top: 50%;
@@ -89,10 +90,6 @@ a:hover {
 .footer {
   background-color: #4b0082;
   color: #fff;
-}
-
-main {
-  background-image: url("../images/bg.jpg");
 }
 
 @media only screen and (min-width: 35em) {
