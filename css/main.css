@@ -58,6 +58,10 @@ a:hover {
   font-size: 5rem;
 }
 
+.captions {
+  font-family: 'Lobster', cursive;
+}
+
 .chocolate-content {
   position: absolute;
   font-family: 'Lobster', cursive;
@@ -70,7 +74,7 @@ a:hover {
 }
 
 .contact {
-  background-color: #dfdcda;
+  background-color: #bda0cb;
 }
 
 .btn {
