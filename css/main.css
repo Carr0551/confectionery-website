@@ -50,14 +50,23 @@ a:hover {
   color: #fff;
 }
 
-.chocolate {
+.banner {
   position: relative;
 }
 
+.banner-header {
+  font-size: 5rem;
+}
+
 .chocolate-content {
+  position: absolute;
   font-family: 'Lobster', cursive;
   background-color: #4b0082;
   color: #fff;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  width: 100;
 }
 
 .contact {
@@ -79,6 +88,10 @@ a:hover {
 .footer {
   background-color: #4b0082;
   color: #fff;
+}
+
+main {
+  background-image: url("../images/bg.jpg");
 }
 
 @media only screen and (min-width: 35em) {
