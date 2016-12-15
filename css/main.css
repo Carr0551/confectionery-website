@@ -1,5 +1,5 @@
 html {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 .color-brand {
@@ -8,6 +8,7 @@ html {
 
 .captions {
   color: #000;
+  font-family: "Lobster", cursive;
 }
 
 a {
@@ -24,7 +25,7 @@ a:hover {
 }
 
 .masthead {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   background-color: #fff;
 
   color: #000;
@@ -58,19 +59,15 @@ a:hover {
   font-size: 5rem;
 }
 
-.captions {
-  font-family: 'Lobster', cursive;
-}
-
 .chocolate-content {
   position: absolute;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   background-color: #4b0082;
   color: #fff;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  width: 100;
+  width: 100%;
 }
 
 .contact {
